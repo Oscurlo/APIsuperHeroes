@@ -1,0 +1,20 @@
+.card {
+    transition: all 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.card:hover {
+    transform: scale(1) translate(5px, 5px);
+    box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.héroe {
+    background: rgba(29, 131, 72, .5);
+}
+
+.villano {
+    background: rgba(82, 18, 124, .5);
+}
+
+.antihéroe {
+    background: rgba(28, 40, 51, .5);
+}
